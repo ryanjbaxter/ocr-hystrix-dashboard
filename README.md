@@ -1,4 +1,6 @@
 # ocr-hystrix-dashboard
+[![CircleCI](https://circleci.com/gh/ryanjbaxter/ocr-hystrix-dashboard.svg?style=svg)](https://circleci.com/gh/ryanjbaxter/ocr-hystrix-dashboard)
+
 Hystrix Dashboard for OCR Spring Cloud demo from my [blog](http://ryanjbaxter.com).  This project utilizes [Spring Cloud Netflix
 to provide the Hystrix Dashboard](http://cloud.spring.io/spring-cloud-static/spring-cloud.html#_circuit_breaker_hystrix_dashboard).
 
