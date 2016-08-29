@@ -1,3 +1,10 @@
 spring:
   application:
-    name: hystrix-dashboard
+    name: hystrixdashboard
+---
+spring:
+  profiles: docker
+  cloud:
+    config:
+      uri:  http://config:8888
+      failFast: true
