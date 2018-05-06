@@ -1,6 +1,10 @@
 spring:
   application:
     name: hystrixdashboard
+  cloud:
+    config:
+      uri:  ${vcap.services.ocr-config-server.credentials.uri:http://localhost:8888}
+      failFast: true
 ---
 spring:
   profiles: docker
